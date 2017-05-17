@@ -1,0 +1,27 @@
+{
+	"matrix": [
+		{
+			"my-action-title": "What should be done?",
+			"quadone": [
+				{
+					"task": "Put out fire next to desk."
+				}
+			],
+			"quadtwo": [
+				{
+					"task": "Organize receipts"
+				}
+			],
+			"quadthree": [
+				{
+					"task": "Nod to coworker interrupting"
+				}
+			],
+			"quadfour": [
+				{
+					"task": "Surf Reddit"
+				}
+			]
+		}
+	]
+}
