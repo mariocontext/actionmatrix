@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Action Matrix</title>
+	<script src="./js/mavo.js"></script>
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" href="./css/mavo.css">
+	<link rel="stylesheet" href="./css/custom-styling.css">
+</head>
+<body>
+	<!-- https://www.dropbox.com/s/ndyem8769oedsvo/action-matrix-db.json?dl=0 -->
+<main class="action-matrix-page" mv-inti="http://nobleux.com/action-matrix/my-action-matrix.json" mv-storage="https://github.com/mariocontext/actionmatrix/" class="mv-autoedit" mv-app id="my-action-matrix" mv-autosave>
+		
+		<section class="action-matrices">
+		
+			<header class="action-matrices-header" >
+				<h1 property="matrix-header-title">Some general Title</h1>
+				<p property="matrix-header-info">General information about the Matrices go here.</p>
+			</header>
+
+			<section class="action-matrix" property="matrix" mv-multiple>
+
+				<header class="matrix-section-title">
+					<h2 property="matrix-section-title">This Matrix title</h2>
+				</header>
+			
+				<article class="matrix-article matrix-article-a">
+
+					<header class="matrix-article-title">
+						<h2 property="matrix-article-title-a" value="Important / Urgent">Important / Urgent<h2>
+					</header>
+
+					<section class="matrix-task-items">
+						<ul>
+							<li property="matrix-one" class="matrix-item" mv-multiple mv-accepts="matrix-two matrix-three matrix-four">
+								<p property="task">Put out fire next to desk.</p>
+							</li>
+						</ul>
+					</section>
+					
+				</article>
+
+				<article class="matrix-article matrix-article-b">
+
+					<header class="matrix-article-title">
+						<h2 property="matrix-article-title-b">Important/Not Urgent</h2>
+					</header>
+
+					<section class="matrix-task-items">
+						<ul>
+							<li property="matrix-two" class="matrix-item" mv-multiple mv-accepts="matrix-one matrix-three matrix-four">
+								<p property="task">Organize receipts</p>
+							</li>
+						</ul>
+					</section>
+					
+				</article>
+
+				<article class="matrix-article matrix-article-c">
+
+					<header class="matrix-article-title">
+						<h2 property="matrix-article-title-c">Not Important/Urgent</h2>
+					</header>
+
+					<section class="matrix-task-items">
+						<ul>
+							<li property="matrix-three" class="matrix-item" mv-multiple mv-accepts="matrix-one matrix-two matrix-four">
+								<p property="task">Nod to coworker interrupting</p>
+							</li>
+						</ul>
+					</section>
+					
+				</article>
+
+				<article class="matrix-article matrix-article-d">
+
+					<header class="matrix-article-title">
+						<h2 property="matrix-article-title-d">Not Important/Not Urgent</h2>
+					</header>
+
+					<section class="matrix-task-items">
+						<ul>
+							<li property="matrix-four" class="matrix-item" mv-multiple mv-accepts="matrix-one matrix-two matrix-three">
+								<p property="task">Surf Reddit</p>
+							</li>
+						</ul>
+					</section>
+					
+				</article>
+			
+			</section>
+
+			<footer class="action-matrices-footer">Context Multimedia 2017</footer>
+
+		</section>
+
+
+</main>
+
+</body>

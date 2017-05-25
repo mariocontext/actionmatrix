@@ -1,0 +1,7 @@
+.htaccess
+*.log
+sitemap.xml.gz
+/imageWork/*
+/storage/*
+argie.html
+/prototypes/*

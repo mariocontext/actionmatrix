@@ -1,0 +1,138 @@
+/* custom styling */
+
+  body {
+    margin: 0;
+   	font-family: Arial;
+	 font-size: 16px;
+	 color: #333;
+  }
+
+  .action-matrix-page {
+    margin-bottom: 2em;
+  }
+
+  .action-matrices {
+  	display: flex;
+    flex-direction: column;
+  }
+
+	.action-matrix {
+		width: 90%;
+		margin: 20px auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-content: flex-start;
+		border-radius: 10px;
+	}
+
+	.matrix-section-title {
+		text-align: center;
+		font-size: 1.5em;
+		width: 100%;
+	}
+
+	.matrix-article {
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		/* background-color: #DDD; */
+	}
+
+	.matrix-article-title {
+		padding-left: 1rem;
+		/* background-color: #F90; */
+	}
+
+	.matrix-task-items {
+		/* background-color: #CCC; */
+	}
+
+	.matrix-task-items > ul {
+		list-style: none;
+		padding-left: 1rem;
+	}
+
+	.matrix-task-items > ul > li {
+		margin: 1em 0;
+	}
+
+  .mv-add-matrix {
+  	width: 50%;
+  	align-self: center;
+  }
+
+  .matrix-article-a {
+    background: #66ED55;
+  }
+ .matrix-article-b {
+    background: #51AB22;
+  }
+  .matrix-article-c {
+    background: #B1F764;
+  }
+  .matrix-article-d {
+    background: #C8D6B0;
+  }
+
+  .mv-item-bar.mv-ui {
+    top: calc(100% - 1.1em);
+  }
+
+  .mv-add {
+    padding: .4em .6em;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background: #F78854;
+    color: #FFF;
+    font-size: 120%;
+    cursor: pointer;
+    border-radius: .2em; }
+
+  .mv-add:hover {
+    background: #333; }
+
+  
+  ul > .mv-add {
+    color: transparent;
+    margin-top: 1em;
+    width: 2em;
+    height: 2em;
+    margin-left: .5em;
+
+  }
+
+  ul > .mv-add::before {
+    content: "+";
+    color: #FFF;
+    height: 1em;
+    width: 1em;
+  }
+
+.action-matrices-header,
+.action-matrices-footer {
+  text-align: center;
+}
+
+.action-matrices-footer {
+  margin: 2em auto;
+}
+
+@media screen and (min-width:768px) {
+
+	.action-matrix {
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.matrix-article {
+		width: 49%;
+		margin: 0;
+	}
+
+	.mv-add-matrix {
+		width: 25%;
+		align-self: center;
+  }
+
+}

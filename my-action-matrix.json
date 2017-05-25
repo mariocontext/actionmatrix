@@ -1,0 +1,33 @@
+{
+	"matrix-header-title": "Some general Title",
+	"matrix-header-info": "General information about the Matrices go here.",
+	"matrix": [
+		{
+			"matrix-section-title": "This Matrix title",
+			"matrix-article-title-a": "Important / Urgent",
+			"matrix-one": [
+				{
+					"task": "Put out fire next to desk."
+				}
+			],
+			"matrix-article-title-b": "Important/Not Urgent",
+			"matrix-two": [
+				{
+					"task": "Organize receipts"
+				}
+			],
+			"matrix-article-title-c": "Not Important/Urgent",
+			"matrix-three": [
+				{
+					"task": "Nod to coworker interrupting"
+				}
+			],
+			"matrix-article-title-d": "Not Important/Not Urgent",
+			"matrix-four": [
+				{
+					"task": "Surf Reddit"
+				}
+			]
+		}
+	]
+}
