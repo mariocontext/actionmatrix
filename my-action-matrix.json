@@ -3,8 +3,7 @@
 	"matrix-header-info": "General information about the Matrices go here.",
 	"matrix": [
 		{
-			"matrix-section-title": "This Matrix title",
-			"matrix-section-title": "Some Matrix title",
+			"matrix-section-title": "test",
 			"matrix-article-title-a": "Important / Urgent",
 			"matrix-one": [
 				{
