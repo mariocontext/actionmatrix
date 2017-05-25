@@ -11,6 +11,9 @@
 				},
 				{
 					"task": "Something else"
+				},
+				{
+					"task": "Another mario task"
 				}
 			],
 			"matrix-article-title-b": "Important/Not Urgent",
