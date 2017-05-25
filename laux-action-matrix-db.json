@@ -20,6 +20,9 @@
 				},
 				{
 					"task": "Task added by Mario"
+				},
+				{
+					"task": "Another task added by mario which should save to github laux json"
 				}
 			],
 			"matrix-article-title-c": "Not Important/Urgent",
